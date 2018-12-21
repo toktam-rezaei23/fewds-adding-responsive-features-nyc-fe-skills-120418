@@ -25,7 +25,9 @@
       width:72px;
     }
     col-3 p {
-    column-count:col-2;
+    -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
     }
 }
 @media screen and (min-width:750px) {
@@ -38,7 +40,7 @@
   .col-1 , .col-2 , .col-3{
     width:100%;
     float:none;
-    margin:0px;
+    left-margin:0px;
   }
   .border-right {
     
