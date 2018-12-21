@@ -3,8 +3,27 @@
     max-width:90%;
   }
   #social {
-    position= absolute 
+    position:absolute; 
     top:82px;
     right:4px;
   }
+}
+
+@media screen and (max-width:900px) {
+  body {
+    font:85%;
+  }
+  #logo h1 {
+    height:35px;
+    }
+    #logo h2 {
+      font:2.2em;
+    }
+    #social {
+      position:fixed;
+      width:72px;
+    }
+    col-3 p {
+      
+    }
 }
