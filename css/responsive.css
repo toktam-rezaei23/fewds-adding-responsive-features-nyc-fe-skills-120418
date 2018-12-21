@@ -36,8 +36,8 @@
   }
   .col-3 p {
    column-count:1; 
-   -moz-column-count: 2;
-   -webkit-column-count: 2;
+   -moz-column-count: 1;
+   -webkit-column-count: 1;
   }
   .col-1 , .col-2 , .col-3{
     width:100%;
