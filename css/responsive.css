@@ -21,7 +21,7 @@
       font:2.2em;
     }
     #social {
-      position:fixed;
+      position:absolute;
       width:72px;
     }
     col-3 p {
@@ -35,7 +35,9 @@
     font:0.9em;
   }
   .col-3 p {
-   column-count:col-1; 
+   column-count:1; 
+   -moz-column-count: 2;
+   -webkit-column-count: 2;
   }
   .col-1 , .col-2 , .col-3{
     width:100%;
