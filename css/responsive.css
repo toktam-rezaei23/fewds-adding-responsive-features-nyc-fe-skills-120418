@@ -30,7 +30,7 @@
      column-count: 2;
     }
 }
-@media screen and (min-width:750px) {
+@media screen and (max-width:750px) {
   #navbar nav a {
     font:0.9em;
   }
